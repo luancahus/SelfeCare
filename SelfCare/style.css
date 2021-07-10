@@ -1,0 +1,412 @@
+/* font-family: 'Lato', sans-serif; */
+*{
+  margin:0;
+  padding: 0;
+}
+
+:root{
+  width: 100%;
+}
+
+body{
+  width: 100vw;
+}
+
+#boxBranco{
+  display: flex;
+  width: 100vw;
+  height: 4.875rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#boxBrancoTitulo{
+  display: flex;
+  margin-left: 4.3125rem;
+  width: 7rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#boxBrancoIcones{
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  margin-right: 4.3125rem;
+  cursor: pointer;
+  
+}
+
+.iconLogo{
+  width: 1.4rem;
+}
+
+#imagemVerde{
+  width: 100vw;
+}
+
+#star{
+width: 1rem;
+height: 1rem;
+
+  
+}
+
+
+#nomes{
+width: 100vw;
+height: 8vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 0.8px solid rgba(165, 161, 161, 0.3);
+
+}
+
+#promocao{
+margin-left: 4.3125rem;
+font-size: 1.25rem;
+font-family: 'Lato', sans-serif;
+
+
+}
+
+#produtos{
+margin-right: 4.3125rem;
+font-family: 'Lato', sans-serif;
+font-size: 1rem;
+
+}
+
+
+
+
+
+main{
+  width: 90vw;
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin:4.3125rem 4rem 0 4.3125rem;
+  
+}
+
+
+
+.artico{
+height: 40vh ;
+width: 20vw;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: 1rem auto;
+
+
+}
+
+.articoImg{
+  width: 200px;
+  height: 200px;
+  
+}
+
+
+.descricao{
+font-family: 'Lato', sans-serif;
+font-weight: 500;
+}
+
+span{
+color: #5CA720;
+font-weight: 700;
+font-size: 1.2rem;
+
+}
+
+footer{
+  width: 100vw;
+  margin-top: 3rem;
+  background-color: #F9F9F9;
+  height: 20rem;
+}
+
+#PrimeiroBloco{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 13rem;
+border-bottom: 0.8px solid rgba(165, 161, 161, 0.3);
+width: 100vw;
+
+
+}
+
+#textoPrimeiroBloco{
+margin-left: 4.3125rem;
+
+height: 6rem ;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+font-family: 'Lato', sans-serif;
+font-weight: 500;
+
+
+}
+
+#inputPrimeiroBloco{
+width: 30rem;
+margin-right: 4.3125rem;
+font-family: 'Lato', sans-serif;
+font-weight: 500;
+height: 4.5rem ;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+}
+
+.formulario{
+  display: flex;
+  width: 40vw;
+}
+
+#email{
+  width: 15rem;
+  height: 2.2rem;
+  border:0.8px solid rgba(165, 161, 161, 0.3);
+}
+
+#botao{
+  width: 7rem;
+  height: 2.2rem;
+  border:none;
+  background-color: #5CA720;
+  color: white;
+  font-weight: 500;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+
+}
+#segundoBloco{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 7rem;
+width: 100vw;
+
+}
+
+#redeSocial{
+display: flex;
+margin-left: 4.3125rem;
+justify-content: space-between;
+width: 5rem;
+
+
+}
+
+#pagamento{
+display: flex;
+margin-right: 4.3125rem;
+justify-content: space-between;
+width: 7rem;
+
+}
+
+.social{
+ width: 2rem; 
+}
+
+.dinheiro{
+ width: 2rem; 
+ height: 1.5rem;
+ 
+}
+
+@media(max-width: 900px){
+  
+main{
+grid-template-columns: 1fr 1fr;
+  
+}
+.artico{
+width: 30vw;
+  
+}
+
+#inputPrimeiroBloco{
+width: 20rem;
+margin-right: 0;
+
+
+
+
+}
+
+.formulario{
+width: 35vw;
+
+}
+
+
+
+}
+
+@media(max-width: 800px){
+main{ 
+margin:0 auto;
+  
+}
+#PrimeiroBloco{
+  display: block;
+  height: 17rem;
+}
+
+#inputPrimeiroBloco{
+  margin-top: 2rem;
+  margin-right:0;
+  margin-left: 4.3125rem;
+  
+}
+
+.formulario{
+display:flex ;
+flex-direction: column;
+margin-top: 1rem;
+width: 20rem;
+
+ 
+}
+
+
+#email{
+width: 20rem;
+border-radius: 3px;
+
+}
+
+#botao{
+  margin-top: 1rem;
+width: 20rem;
+border-radius: 3px;
+
+}
+#segundoBloco{
+height: 3rem;
+
+}
+
+
+}
+
+@media(max-width: 600px){
+
+.articoImg{
+width: 150px;
+height: 150px;
+
+}
+
+.artico{
+height: 32vh;
+}
+
+#textoPrimeiroBloco{
+margin: 0 auto;
+width: 20rem;
+  
+}
+
+#inputPrimeiroBloco{
+margin: 1rem auto;
+height: 8rem;
+  
+}
+
+.formulario{
+width: 20rem;
+}
+
+}
+
+@media(max-width: 500px){
+
+#boxBrancoTitulo{
+  margin-left: 1rem;
+}
+#boxBrancoIcones{
+margin-right: 1rem;
+width: 7rem;
+} 
+
+#redeSocial{
+margin-left: 1rem;
+width: 3rem;
+  
+}
+#pagamento{
+margin-right: 1rem;
+}
+
+.social{
+ width: 1rem; 
+}
+
+.dinheiro{
+ width: 1.3rem; 
+ height: 1rem;
+ 
+}
+
+#promocao{
+margin-left: 1rem;
+
+}
+
+#produtos{
+margin-right: 1rem;
+
+}
+
+}
+
+@media(max-width: 400px){
+
+.articoImg{
+width: 120px;
+height: 120px;
+
+}
+
+.artico{
+height: 28vh;
+}
+
+}
+
+@media(max-width: 330px){
+
+.articoImg{
+width: 100px;
+height: 100px;
+}
+
+#textoPrimeiroBloco{
+width: 15rem;
+  
+}
+
+#inputPrimeiroBloco{
+height: 8rem;
+width: 15rem;
+  
+}
+
+.formulario,
+#email,
+#botao{
+  width: 15rem;
+}
+  
+}
